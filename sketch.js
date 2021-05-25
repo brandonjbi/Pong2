@@ -1,10 +1,22 @@
 function setup() {
-    createCanvas(400, 400);
+    createCanvas(1100, 900);
   }
   
   function draw() {
     background(220);
-    line(30,20,85,75);
+    dda(20,30,200,300);
+    dda(200,30,100,300);
+    dda(120,30,145,300);
+    dda(10,200,300,200);
+    ecuPP(120,330,260,600);
+    ecuPP(300,330,100,600);
+    ecuPP(180,330,205,600);
+    ecuPP(110,480,300,467);
+    brhm(900,450,600,600);
+    brhm(650,450,800,600);
+    brhm(725,450,740,600);
+    brhm(650,525,800,540);
+    
   }
   function ecuPP(x1, y1, x2, y2){
 	let x = x1;
